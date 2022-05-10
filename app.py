@@ -1,7 +1,7 @@
 import streamlit as st
-from tensorflow.keras.applications.vgg16 import VGG16
+#from tensorflow.keras.applications.vgg16 import VGG16
 import numpy as np
-from tensorflow.keras.applications.vgg16 import preprocess_input,decode_predictions
+#from tensorflow.keras.applications.vgg16 import preprocess_input,decode_predictions
 from PIL import Image
 import cv2
 from tensorflow import keras
