@@ -11,7 +11,7 @@ from keras.preprocessing.image import img_to_array
 from keras.models import load_model
 
 
-model = models.load_model('/content/drive/MyDrive/major project/covid_classification.h5')
+model = models.load_model('./covid_classification.h5')
 
 st.title("Chest X-ray Classification")
 st.header('')
